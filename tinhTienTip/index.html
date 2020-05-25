@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tình Tiền Típ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-4 text-center bg-success">
+                    TÍNH TIỀN TÍP
+                </h3>
+                <div class="form-group">
+                    <p>Tông tiền thanh toán?</p>
+                    <div class="input-group mb-3">
+
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">$</span>
+                        </div>
+                        <input type="text" class="form-control" id="tienThanhToan" placeholder="Tổng tiền" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p>Bạn muốn típ bao nhiêu?</p>
+                    <select name="" id="tienTip" class="form-control">
+                        <option value="">---Chọn để Típ----</p></option>
+                        <option value="30">30% - Tuyệt</p></option>
+                        <option value="20">20% - Tốt</p></option>
+                        <option value="15">15% - Tạm ổn</p></option>
+                        <option value="10">10% - Tồi</p></option>
+                        <option value="5">5% - Thật tệ</p></option>
+                   </select>
+                </div>
+                <div class="form-group">
+                    <p> Muốn share bao nhiêu người?</p>
+                    <div class="input-group mb-3">
+
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">$</span>
+                        </div>
+                        <input type="text" class="form-control" id="soNguoi" placeholder="Nhập số người" aria-label="Username" aria-describedby="basic-addon1">người
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" id="btnTinhTien" class="btn btn-success">TÍNH NÀO!</button>
+                </div>
+                <div class="text-center mt-4 ">
+                    <h4>TIP AMOUNT</h4>
+                    <p>$ <span class="bg-warning text-light" id="result"></span></p>
+                    <p>mỗi người</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
